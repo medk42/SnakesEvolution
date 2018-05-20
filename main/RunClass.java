@@ -6,6 +6,6 @@ package main;
  */
 public class RunClass {
     public static void main(String[] args) {
-        MainSketch.main("processingtemplate.MainSketch");
+        MainSketch.main("main.MainSketch");
     }
 }
