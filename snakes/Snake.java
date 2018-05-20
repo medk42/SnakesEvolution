@@ -49,10 +49,10 @@ public class Snake {
         dna = new DNA(1091);
         PVector originalPosition = new PVector(applet.random(applet.width-2*padding)+padding, applet.random(applet.height-2*padding)+padding);
         body.add(originalPosition);
-        //DELETE THIS
+        
         body.add(PVector.add(originalPosition, new PVector(1, 1)));
         body.add(PVector.add(originalPosition, new PVector(bodySize*2, bodySize*2)));
-        //DELETE END
+        
         heading = applet.random(TWO_PI);
         this.bodySize = bodySize;
         int[] layersCount = new int[]{48, 16, 16, 2};
