@@ -30,10 +30,10 @@ Then there are two hidden layers with 16 (plus bias) neurons and output layer wi
 
 ## Running the project
 ### Running my build
-Easiest way to run the project is to download the project and run **"dist/ProcessingTemplate.jar"**. The only other file you need is **"dist/lib/core.jar"** because of the library.
+Easiest way to run the project is to download it and run **"dist/ProcessingTemplate.jar"**. The only other file you need is **"dist/lib/core.jar"** because of the library.
 ### Building project on your own
 Project requires you to compile it with [Processing](https://processing.org/) library (file **core.jar**).
 
 ## Resources
-* [Original video](https://youtu.be/BBLJFYr7zB8 "Video"): Project is based on this video
+* [Original video](https://youtu.be/BBLJFYr7zB8 "Video"): Project is inspired by this video
 * [Processing 3](https://processing.org/ "Processing"): Java graphic library
